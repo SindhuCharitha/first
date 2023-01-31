@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align : center">Application Form</h1>
+    <ul>
+    <li><a href="file:///E:/20B81A0543/WEEK3/resume.html">Profile</a><br></li>
+    <li><a href="file:///E:/20B81A0543/WEEK3/register.html">Register</a><br></li>
+    <li><a href="file:///E:/20B81A0543/WEEK3/login.html">Login Form</a><br></li>
+    <li><a href="file:///E:/20B81A0543/WEEK3/about.html">About</a><br></li>
+    <li><a href="file:///E:/20B81A0543/WEEK3/contact.html">Contact</a></li>
+    </ul>
+    <h1>Contact</h1>
+    <form name="Contact" method="get" action="file:///E:/20B81A0543/WEEK3/contactsuccess.html">
+    first name : <input type="text" placeholder="enter first name" required><br/><br/>
+    last name : <input type="text" placeholder="enter last name" required><br/><br/>
+    Email : <input type="email" placeholder="enter email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br/><br/>
+    Mobile Number: <input type="text" placeholder="Enter Number" pattern="(?=.*[0-9]).{10,}" required><br/><br/>
+   Country : <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="canada">India</option>
+          <option value="canada">South korea</option>
+          <option value="usa">USA</option>
+        </select>
+        <br/><br/>
+        Subject : <input type="text" placeholder="enter something" required>
+        <br/><br/>
+    <input type="submit">
+    <input type="reset">
+    </form>
+    
+</body>
+</html>
